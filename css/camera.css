@@ -3,10 +3,10 @@
 *	GENERAL
 *
 **************************/
-.camera_wrap a, .camera_wrap img, 
+.camera_wrap a, .camera_wrap img,
 .camera_wrap ol, .camera_wrap ul, .camera_wrap li,
 .camera_wrap table, .camera_wrap tbody, .camera_wrap tfoot, .camera_wrap thead, .camera_wrap tr, .camera_wrap th, .camera_wrap td
-.camera_thumbs_wrap a, .camera_thumbs_wrap img, 
+.camera_thumbs_wrap a, .camera_thumbs_wrap img,
 .camera_thumbs_wrap ol, .camera_thumbs_wrap ul, .camera_thumbs_wrap li,
 .camera_thumbs_wrap table, .camera_thumbs_wrap tbody, .camera_thumbs_wrap tfoot, .camera_thumbs_wrap thead, .camera_thumbs_wrap tr, .camera_thumbs_wrap th, .camera_thumbs_wrap td {
 	background: none;
@@ -148,7 +148,7 @@
 }
 .camera_caption {
 	left: -20px;
-	top: 320px;
+	top: 150px;
 	display: block;
 	position: absolute;
 	//width: 100%;
@@ -452,7 +452,7 @@
 }
 .camera_pag{
 	margin-top: -149px;
-}	
+}
 .camera_prevThumbs, .camera_nextThumbs, .camera_prev, .camera_next, .camera_commands, .camera_thumbs_cont {
 	//background: #d8d8d8;
 	//background: rgba(216, 216, 216, 0.85);
