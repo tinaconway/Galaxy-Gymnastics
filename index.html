@@ -59,8 +59,7 @@
         <div class="container">
           <div class="row">
             <div class="logo col-md-4">
-              <div>
-              </div>
+              <!-- <img src="images/galaxy.png" alt=""> -->
             </div>
             <div class="col-md-8">
               <div class="navmenu" style="text-align: center;">
@@ -69,7 +68,7 @@
                   <li><a href="#about">About</a></li>
                   <li><a href="#schedule">Class Schedule</a></li>
                   <li><a href="#team">Meet the Team</a></li>
-                  <li><a href="#team">Pay Online</a></li>
+                  <li><!-- <a href="#team">Pay Online</a> --></li>
                   <li class="last"><a href="#contact">Contact</a></li>
                 </ul>
               </div>
@@ -80,9 +79,11 @@
       <div class="container">
         <div class="row wrap">
           <div class="col-md-12 gallery">
+            <img src="images/galaxy2.png" class="position-logo" alt=""></h2>
+
             <div class="camera-wrap camrera_white_skin">
               <div class="img-responsive camera_caption">
-                <h2>Galaxy Gymnastics</h2>
+                <h2 class="responsive-title">
               </div>
             </div>
           </div>
@@ -91,7 +92,7 @@
     </div>
 
     <div id="about" class="container">
-      <div class="row">
+      <div class="row responsive-about">
         <div class="col-md-6 cBusiness">
           <h3><span class="teal" style="font-weight: 100;">ABOUT</span></h3>
           <br>
@@ -109,22 +110,22 @@
           <p style="text-align: justify; font-size: 1.4em;">Our staff members are dedicated to the safety and well being of your children. We are here to teach your children gymnastics and use our knowledge to help them be challenged individually. Each of us have extensive gymnastics knowledge as well
             as knowledge of child development. Our goal is to provide what your child needs so that they can develop into the best gymnast they can be. Our instructors are certified and background checked though USA Gymnastics. </p>
         </div>
-        <div class="col-md-6 centPic">
-          <img class=" wow fadeInRight animated" src="images/transparent.png"  data-wow-delay="0.2s"/>
+        <div class="col-md-6 centPic hide-image">
+          <img class="fix-transparent-img wow fadeInRight animated" src="images/transparent.png"  data-wow-delay="0.2s"/>
         </div>
       </div>
-      <div id="main">
-        <div class="box alt container2">
 
+      <div id="main" class="hide-section">
+        <div class="box alt container2">
           <section class="feature left wow fadeInLeft animated" data-wow-delay="0.2s">
-            <a href="javascript:void(0)" class="image icon"><img style="opacity: .85;" src="images/kids2.png" alt="" /></a>
-            <div class="content">
+            <a href="javascript:void(0)" class="image icon"><img class="responsive-hide" style="opacity: .85;" src="images/kids2.png" alt="" /></a>
+            <div class="content responsive-expand">
               <h3><span class="teal" style="font-weight: 100; text-transform:uppercase;">Preschool Gymnastics</span></h3>
               <p>Gymnastics for preschoolers is proven to help with kindergarten readiness as well as development of large motor skills. At Galaxy our preschool-aged classes are designed specifically for the age-group that we are teaching.</p>
             </div>
           </section>
           <section class="feature right wow fadeInRight animated" data-wow-delay="0.2s">
-            <a href="javascript:void(0)" class="image icon"><img style="opacity: .85;" src="images/stretch.png" alt="" /></a>
+            <a href="javascript:void(0)" class="image icon"><img class="responsive-hide" style="opacity: .85;" src="images/stretch.png" alt="" /></a>
             <div class="content">
               <h3><span class="purple" style="font-weight: 100; text-transform:uppercase;">Recreational Gymnastics</span></h3>
               <p>We provide a variety of recreational classes throughout the week that help your child learn gymnastics to their fullest potential. There are different levels of classes to fit your child's specific needs. Classes are offered at different
@@ -132,14 +133,15 @@
             </div>
           </section>
           <section class="feature left wow fadeInLeft animated" data-wow-delay="0.2s">
-            <a href="javascript:void(0)" class="image icon"><img style="opacity: .85;" src="images/beam.png" alt="" /></a>
+            <a href="javascript:void(0)" class="image icon">
+              <img style="opacity: .85;" src="images/beam.png" class="responsive-hide" alt="" /></a>
             <div class="content">
               <h3><span class="teal" style="font-weight: 100; text-transform:uppercase;">Competitive Gymnastics</span></h3>
               <p>At Galaxy we offer all levels of competitive gymnastics that will provide the best training possible to help your child get to their highest level.</p>
             </div>
           </section>
           <section class="feature right wow fadeInRight animated" data-wow-delay="0.2s">
-            <a href="javascript:void(0)" class="image icon"><img style="opacity: .85;" src="images/bday2.png" alt="" /></a>
+            <a href="javascript:void(0)" class="image icon"><img class="responsive-hide" style="opacity: .85;" src="images/bday2.png" alt="" /></a>
             <div class="content">
               <h3><span class="purple" style="font-weight: 100; text-transform:uppercase;">Birthday Parties and Special Events</span></h3>
               <p>Birthday Parties at Galaxy Gymnastics are the perfect way for your child to celebrate their birthday in a fun and active way! We also accommodate field trips and special events upon request.</p>
@@ -147,7 +149,51 @@
           </section>
         </div>
       </div>
+
+
+      <div id="main" class="show-section">
+        <div class="col-md-12">
+          <div class="row">
+            <img class="responsive-image" style="opacity: .85;" src="images/kids2.png" alt="" />
+          </div>
+          <div class="row">
+            <h3>
+              <span class="teal" style="font-weight: 100; text-transform:uppercase;">Preschool Gymnastics
+              </span>
+            </h3>
+            <p>Gymnastics for preschoolers is proven to help with kindergarten readiness as well as development of large motor skills. At Galaxy our preschool-aged classes are designed specifically for the age-group that we are teaching.</p>
+          </div>
+          <div class="row">
+            <img class="responsive-image" style="opacity: .85;" src="images/stretch.png" alt="" />
+          </div>
+          <div class="row" >
+            <h3><span class="purple" style="font-weight: 100; text-transform:uppercase;">Recreational Gymnastics</span></h3>
+            <p>We provide a variety of recreational classes throughout the week that help your child learn gymnastics to their fullest potential. There are different levels of classes to fit your child's specific needs. Classes are offered at different days and times.</p>
+          </div>
+          <div class="row">
+            <img class="responsive-image" style="opacity: .85;" src="images/beam.png" alt="" />
+          </div>
+          <div class="row">
+            <h3><span class="teal" style="font-weight: 100; text-transform:uppercase;">Competitive Gymnastics</span></h3>
+            <p>At Galaxy we offer all levels of competitive gymnastics that will provide the best training possible to help your child get to their highest level.</p>
+          </div>
+          <div class="row">
+            <img class="responsive-image" style="opacity: .85;" src="images/bday2.png" alt="" />
+          </div>
+          <div class="row">
+            <h3><span class="purple" style="font-weight: 100; text-transform:uppercase;">Birthday Parties and Special Events</span></h3>
+            <p>Birthday Parties at Galaxy Gymnastics are the perfect way for your child to celebrate their birthday in a fun and active way! We also accommodate field trips and special events upon request.</p>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
     </div>
+
+
     <br>
     <div class="linenew" style="opacity: 0.87;">
       <div class="container">
@@ -162,7 +208,7 @@
         <i>Choose one class per week from the available days and times.</i>
         <br>
         <div style="overflow-x:auto;">
-          <table align="center" style="margin-bottom: 20px; margin-top: 20px; width:80%;">
+          <table class="fix-table" align="center" style="margin-bottom: 20px; margin-top: 20px; width:80%;">
             <tr>
               <th>Class Name</th>
               <th>Price per Month/Session</th>
@@ -223,18 +269,22 @@
                         <td></td>
                       </tr>
                     </table>
-        </div>
-      </div>
+                  </div>
+                </div>
       <div class="row">
-        <h3 style="margin-top: 40px;"><span class="teal" style="font-weight: 100;">COMPETITIVE TEAM AND DEVELOPMENT TEAM</span></h3>
+        <h3 style="margin-top: 40px;">
+          <span class="teal" style="font-weight: 100;">COMPETITIVE TEAM AND DEVELOPMENT TEAM</span>
+        </h3>
         <p>(By Invitation Only)</p>
-        <span style="text-align: left;"><i>Our competitive teams strive to achieve excellence. Levels are determined by coaches, and any questions that you may have can be answered by email or by a coach.</i>
+        <span>
+          <i>Our competitive teams strive to achieve excellence. Levels are determined by coaches, and any questions that you may have can be answered by email or by a coach.
+          </i>
         </span>
         <br>
         <i>​More information about the 2016-2017 competitive season will be coming soon.</i>
         <br>
         <div>
-          <table align="center" style="margin-bottom: 20px; margin-top: 20px; width: 80%;">
+          <table class="fix-table" align="center" style="margin-bottom: 20px; margin-top: 20px; width: 80%;">
             <tr>
               <th>Team Level</th>
               <th>Price per Month</th>
@@ -305,70 +355,75 @@
       </div>
 
 <div class="table-section">
-    <div class="container">
-<div class="col-md-12 wwa" style="margin-bottom: 40px;">
-  <span name="about"></span>
-  <h3><span class="purple" style="font-weight: 100;">SESSION SCHEDULE</span></h3>
-</div>
-        <div class="row" style="margin-top: 30px;">
-            <div class="col-md-4 col-md-offset-2 table-content wow fadeInDown animated" data-wow-delay="0.2s">
-                <div class="table-item sliver">
-
-                    <h3> <i class="fa fa-leaf" aria-hidden="true"></i> Fall Session</h3>
-
-                    <ul>
-                        <li>October 3rd- December 23rd</li>
-                        <li>(Off week of November 21st-27th)</li><br>
-                    </ul>
-                    <a href="javascript:void(0)">11 Classes</a>
-                </div>
-            </div>
-            <div class="col-md-4 table-content wow fadeInDown animated" data-wow-delay="0.5s">
-                <div class="table-item gold">
-                  <h3>  <i class="fa fa-tree" aria-hidden="true"></i> Winter Session</h3>
-                    <ul>
-                        <li>January 2nd-March 17th</li>
-                        <br><br>
-                    </ul>
-                    <a href="javascript:void(0)">11 Classes</a>
-                </div>
-            </div>
-          </div>
-          <div class="row" style="margin-top: 30px;">
-            <div class="col-md-4 col-md-offset-2 table-content wow fadeInDown animated" data-wow-delay="0.81s">
-                <div class="table-item gold">
-                    <h3> <i class="fa fa-umbrella" aria-hidden="true"></i> Spring Session</h3>
-                    <ul>
-                        <li>March 27th-June 9th</li>
-                        <br><br>
-                    </ul>
-                    <a href="javascript:void(0)">11 Classes</a>
-                </div>
-            </div>
-            <div class="col-md-4 table-content wow fadeInDown animated" data-wow-delay="0.81s">
-                <div class="table-item sliver">
-                    <h3><i class="fa fa-sun-o" aria-hidden="true"></i> Summer Session</h3>
-                    <ul>
-                        <li>June 19th-August 25th</li>
-                        <br><br>
-                    </ul>
-                    <a href="javascript:void(0)">10 Classes</a>
-
-                </div>
-            </div>
-          </div>
+  <div class="container">
+    <div class="col-md-12 wwa" style="margin-bottom: 40px;">
+      <span name="about"></span>
+      <h3>
+        <span class="purple" style="font-weight: 100;">SESSION SCHEDULE</span>
+      </h3>
     </div>
-</div>
-<div class="row">
-<div class="col-md-6 col-md-offset-3" style="height:400px;">
-  <h3 style="margin-bottom: 40px;"><span class="purple" style="font-weight:100;">Registration</span></h3>
-  <p style="text-align: justify; font-size:1.2em;">The registration fee is $15 and covers your entire family for the year. In order to sign up for a class we require that you pay the registration fee. This also gives you a half-price discount to open gym.</p>
-  <p style="text-align: justify; font-size:1.2em;">
-    Signing up by the session gives your child a better chance of success than just over the course of the month. It also gives you a discount per class by committing to be in class for 10 or 11 weeks.
-  </p>
-</div>
-</div>
-</div>
+    <div class="row add-margin">
+      <div class="col-md-4 col-md-offset-2 table-content wow fadeInDown animated" data-wow-delay="0.2s">
+        <div class="table-item sliver">
+          <h3>
+            <i class="fa fa-leaf" aria-hidden="true"></i> Fall Session
+          </h3>
+          <ul>
+            <li>October 3rd- December 23rd</li>
+            <li>(Off week of November 21st-27th)</li><br>
+          </ul><a href="javascript:void(0)">11 Classes</a></div>
+        </div>
+        <div class="col-md-4 table-content wow fadeInDown animated" data-wow-delay="0.5s">
+          <div class="table-item gold">
+            <h3>
+              <i class="fa fa-tree" aria-hidden="true"></i> Winter Session
+            </h3>
+            <ul>
+              <li>January 2nd-March 17th</li>
+              <br><br>
+            </ul>
+            <a href="javascript:void(0)">11 Classes</a>
+          </div>
+        </div>
+      </div>
+      <div class="row" style="margin-top: 30px;">
+        <div class="col-md-4 col-md-offset-2 table-content wow fadeInDown animated" data-wow-delay="0.81s">
+          <div class="table-item gold">
+            <h3> <i class="fa fa-umbrella" aria-hidden="true"></i> Spring Session
+            </h3>
+            <ul>
+              <li>March 27th-June 9th</li>
+                <br><br>
+              </ul>
+              <a href="javascript:void(0)">11 Classes</a>
+            </div>
+          </div>
+          <div class="col-md-4 table-content wow fadeInDown animated" data-wow-delay="0.81s">
+              <div class="table-item sliver">
+                  <h3><i class="fa fa-sun-o" aria-hidden="true"></i> Summer Session
+                  </h3>
+                  <ul>
+                    <li>June 19th-August 25th</li>
+                    <br><br>
+                  </ul>
+                  <a href="javascript:void(0)">10 Classes</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6 col-md-offset-3" style="height:400px;">
+            <h3 style="margin-bottom: 40px;">
+              <span class="purple" style="font-weight:100;">Registration</span>
+            </h3>
+            <p style="text-align: justify; font-size:1.2em;">The registration fee is $15 and covers your entire family for the year. In order to sign up for a class we require that you pay the registration fee. This also gives you a half-price discount to open gym.</p>
+            <p style="text-align: justify; font-size:1.2em;">Signing up by the session gives your child a better chance of success than just over the course of the month. It also gives you a discount per class by committing to be in class for 10 or 11 weeks.
+            </p>
+          </div>
+        </div>
+      </div>
 
   <!--about start-->
   <div>
@@ -393,8 +448,8 @@
         <img class="hvr-rectangle-out" src="images/chelsea3.png" alt="Chelsea Lahey">
       </div>
       <h3 class="profile-name teal" style="font-weight:100;">Chelsea Lahey</h3>
-      <p class="profile-description">
-        Chelsea was a competitive gymnast until the age of 14 and then switched over to competitive cheerleading. She cheered on the world renowed cheerleading team Maryland Twister F5 where she was part of a national championship team, received airtime on America's Got Talent and ESPN, and finished 4th place at the Cheerleading Worlds. Chelsea has worked with Pam Duke on and off, coaching cheerleading and gymnastics for the past 10 years. She can't wait to continue this new journey with her.</p>
+        <p class="profile-description">
+          Chelsea was a competitive gymnast until the age of 14 and then switched over to competitive cheerleading. She cheered on the world renowed cheerleading team Maryland Twister F5 where she was part of a national championship team, received airtime on America's Got Talent and ESPN, and finished 4th place at the Cheerleading Worlds. Chelsea has worked with Pam Duke on and off, coaching cheerleading and gymnastics for the past 10 years. She can't wait to continue this new journey with her.</p>
       </div>
 
       <div class="col-md-4 profile" style="text-align:center">
@@ -403,7 +458,7 @@
         </div>
         <h3 class="profile-name purple" style="font-weight:100;">Pam Duke</h3>
         <p class="profile-description">
-        Pam's love for gymnastics began at a young age when she started competing in the sport under the well known Bob Morris. From there, her interest grew into not only gymnastics, but cheerleading too. She started her coaching career with varsity cheerleading at James M. Bennett High School from 1993 - 1996. From 1996 - 2000, she coached Varsity Cheerleading at Parkside High School, where she developed a competitive team. She then coaced at Salisbury University from 2000 - 2004. In 2006, she began Nor' Eastern Storm All Stars.</p>
+        Pam's love for gymnastics began at a young age when she started competing in the sport under the well known Bob Morris. From there, her interest grew into not only gymnastics, but cheerleading too. She started her coaching career with varsity cheerleading at James M. Bennett High School from 1993 - 1996. From 1996 - 2000, she coached Varsity Cheerleading at Parkside High School, where she developed a competitive team. She then coaced at Salisbury University from 2000 - 2004. In 2006, she began Nor' Eastern Storm All Stars, who in 11 years have won numerous Regional, National, and US Finals Championships.</p>
       </div>
       <div class="col-md-4 profile" style="text-align:center">
         <div class="image-wrap">
@@ -411,10 +466,40 @@
         </div>
         <h3 class="profile-name teal" style="font-weight:100;">Ally Lewis</h3>
         <p class="profile-description">
-        Ally is a senior at Salisbury Univeristy with a major in Elementary Education and a minor in Creatinve Arts. She plays club soccer and was on the SU Gymnastics team for one year. She is the team manager fo the SU club Ice Hockey team and an active participant in a variety of intramural sports. She has a passion for working with kids and encouraging them to have fun.</p>
+        Ally is a senior at Salisbury Univeristy with a major in Elementary Education and a minor in Creatinve Arts. She plays club soccer and was on the SU Gymnastics team for one year. She is the team manager fo the SU club Ice Hockey team and an active participant in a variety of intramural sports. She has a passion for working with kids and encouraging them to have fun.
+      </p>
       </div>
-</div>
-</div>
+    </div>
+    <div class="row team">
+      <div class="col-md-4 profile" style="text-align:center">
+        <div class="image-wrap">
+          <img src="images/luann.png" alt="Luanne Giorgione Miller">
+        </div>
+        <h3 class="profile-name teal" style="font-weight:100;">LuAnne Giorgione Miller</h3>
+        <p class="profile-description">
+        LuAnne is a retired Elite Gymnast from Pittsburgh, Pennsylvania who is Russian trained in Ballet, Jazz, and Character Dancing. Accomplishments include an Elite National Tumbling Championship title (Chicago, IL), Pennsylvania State Champion (Redding, PA), California North Coast High School Champion (Moraga, CA), Coaches Most Valuable Player - Campolindo High School (Moraga, CA), and NCAA Division I Gymnast for the University of Denver.  LuAnne has coached recreational and competitive gymnasts in Pennsylvania, Alaska, California, Colorado, Texas, and Maryland. LuAnne earned a Master of Science degree in Exercise Physiology from the University of Pittsburgh and has worked in Peninsula Regional Medical Center's Cardiac/Pulmonary Rehabilitation Department and currently is a Personal Trainer at Olympia Fitness Clubs.
+      </p>
+      </div>
+
+        <div class="col-md-4 profile" style="text-align:center">
+          <div class="image-wrap">
+            <img src="images/pam3.png" alt="Pam Duke">
+          </div>
+          <h3 class="profile-name purple" style="font-weight:100;">Pam Duke</h3>
+          <p class="profile-description">
+          Pam's love for gymnastics began at a young age when she started competing in the sport under the well known Bob Morris. From there, her interest grew into not only gymnastics, but cheerleading too. She started her coaching career with varsity cheerleading at James M. Bennett High School from 1993 - 1996. From 1996 - 2000, she coached Varsity Cheerleading at Parkside High School, where she developed a competitive team. She then coaced at Salisbury University from 2000 - 2004. In 2006, she began Nor' Eastern Storm All Stars, who in 11 years have won numerous Regional, National, and US Finals Championships.</p>
+        </div>
+        <div class="col-md-4 profile" style="text-align:center">
+          <div class="image-wrap">
+            <img src="images/ally.jpeg" alt="Ally Lewis">
+          </div>
+          <h3 class="profile-name teal" style="font-weight:100;">Ally Lewis</h3>
+          <p class="profile-description">
+          Ally is a senior at Salisbury Univeristy with a major in Elementary Education and a minor in Creatinve Arts. She plays club soccer and was on the SU Gymnastics team for one year. She is the team manager fo the SU club Ice Hockey team and an active participant in a variety of intramural sports. She has a passion for working with kids and encouraging them to have fun.
+        </p>
+        </div>
+      </div>
+  </div>
 </div>
 
     <!--contact start-->
