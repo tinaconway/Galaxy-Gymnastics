@@ -498,6 +498,7 @@
       </div>
     </div>
     <div class="row team">
+      <div class="col-md-2"></div>
       <div class="col-md-4 profile" style="text-align:center">
         <div class="image-wrap">
           <img src="images/ally.jpeg" alt="Ally Lewis">
@@ -522,6 +523,7 @@
             Amanda is a sophomore at Salisbury University, majoring in English for Speakers of Other Languages and minoring in Spanish. She grew up in a gymnastics family, and taught at Harford Gymnastics last year.
           </p>
         </div>
+        <div class="col-md-2"></div>
 
       </div>
   </div>
@@ -537,25 +539,31 @@
           <h3><span class="teal" style="font-weight: 100;">Got a Question? We&rsquo;re Here to Help!</span></h3>
           <p>Get in touch with us.</p>
           <div class="col-md-9 col-xs-12 forma">
-            <form>
-              <input type="text" class="col-md-6 col-xs-12 name" name='name' placeholder='Name *' />
-              <input type="text" class="col-md-6 col-xs-12 Email" name='Email' placeholder='Email *' />
-              <input type="text" class="col-md-12 col-xs-12 Subject" name='Subject' placeholder='Subject' />
-              <textarea type="text" class="col-md-12 col-xs-12 Message" name='Message' placeholder='Message *'></textarea>
-              <div class="cBtn col-xs-12">
-                <ul>
-                  <li class="clear"><a href="#"><i class="fa fa-times"></i>clear form</a></li>
-                  <li class="send"><a href="#"><i class="fa fa-share"></i>Send Message</a></li>
-                </ul>
-              </div>
-            </form>
+
+    <form role="form" method="post" action="contact.php"  enctype="multipart/form-data">
+      <input type="text" class="col-md-6 col-xs-12 name" name='name' placeholder='Name *' id="name">
+      <input type="email" class="col-md-6 col-xs-12 Email" placeholder='Email *' id="email" name="email" value="">
+      <input type="text" class="col-md-12 col-xs-12 Subject" name='Subject' id="subject" placeholder='Subject' value="" name="subject" />
+      <textarea type="text" class="col-md-12 col-xs-12 Message" name='Message' placeholder='Message *' id="message" value="">
+      </textarea>
+      <div class="cBtn col-xs-12">
+        <ul>
+          <li class="send">
+            <a href="#" id="submit" name="submit" type="submit" value="Send"><i class="fa fa-share"></i>Send Message
+            </a>
+          </li>
+        </ul>
+      </div>
+		<div class="col-sm-10 col-sm-offset-2">
+		</div>
+</form>
           </div>
           <div class="col-md-3 col-xs-12 cont">
             <ul>
-              <li class="teal"><h4>Galaxy Gymnastics</h4></li>
-              <li><i class="fa fa-home"></i>337 Civic Avenue Salisbury, MD 21804</li>
-              <li><i class="fa fa-phone"></i><a href="tel:410-726-8608">(410) 726-8608</a></li>
-              <li><a href="#"><i class="fa fa-envelope"></i>mail@compname.com</li></a>
+              <li class="purple"><h4>Galaxy Gymnastics</h4></li>
+              <li class="teal"><i class="fa fa-home"></i>337 Civic Avenue Salisbury, MD 21804</li>
+              <li class="teal"><i class="fa fa-phone"></i><a href="tel:410-726-8608">(410) 726-8608</a></li>
+              <li class="teal"><a href="mailto:galaxygymnastics2016@gmail.com"><i class="fa fa-envelope"></i>GalaxyGymnastics2016@gmail.com</li></a>
                 <li><a href="https://www.facebook.com/galaxygymnastics/"><i class="fa fa-facebook-square"></i>Facebook</li></a>
             </ul>
           </div>
@@ -652,7 +660,7 @@
 
       });
     </script>
-
+    <script></script>
     <script type="text/javascript">
       $(document).ready(function() {
 

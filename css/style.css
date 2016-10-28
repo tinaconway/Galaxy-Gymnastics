@@ -1662,7 +1662,7 @@ textarea {
 	background:#2AA2B6 ;
 }
 .forma .cBtn .send:hover{
-	background:black;
+	background: #9128D7;;
 	box-shadow: 0px 2px 0px 0px #000 ;
 }
 
@@ -1690,10 +1690,13 @@ textarea {
 }
 .cont a{
 	text-decoration:none;
-	color:#1fcdff;
+	font-size: 13px;
 }
 .cont a:hover{
-	color:#666666;
+	/* color:#666666; */
+}
+li i{
+	font-size: 15px;
 }
 
 
